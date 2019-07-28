@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block body %}
+  {{ nova('Navbar', {'brand':'Ara Framework', 'links': [{ 'url': 'http://wizeline.com', 'text': 'Wizeline' }]}) }}
+  {{ nova('Header', {'title': 'Preact'}) }}
+  {{ nova('EventList', { 'items': [ { 'name': 'The Killers', 'url': '/', 'imageUrl': 'https://ichef.bbci.co.uk/images/ic/960x540/p01bqj0c.jpg', 'description': '' }] }) }}
+{% endblock %}
